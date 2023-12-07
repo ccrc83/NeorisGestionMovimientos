@@ -34,7 +34,8 @@ public class CountriesController {
     @GetMapping("/list")
     public  ResponseEntity<ResponseMessage> list(){
         List<Countries> countries = findAllCountriesUseCase.execute();
-        ResponseMessage responseMessage= new ResponseMessage(countries);
+        ResponseMessage responseMessage= new ResponseMessage(countries,Constants.CODE_200,Constants.MESSAGE_200);
+
         return ResponseEntity.ok(responseMessage);
     }
 
