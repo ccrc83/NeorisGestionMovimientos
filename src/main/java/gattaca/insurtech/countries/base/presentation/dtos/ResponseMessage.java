@@ -1,4 +1,4 @@
-package gattaca.insurtech.base.presentation.dtos;
+package gattaca.insurtech.countries.base.presentation.dtos;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.gson.Gson;

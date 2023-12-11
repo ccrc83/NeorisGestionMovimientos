@@ -1,4 +1,4 @@
-package gattaca.insurtech.base.domain.entities;
+package gattaca.insurtech.countries.base.domain.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

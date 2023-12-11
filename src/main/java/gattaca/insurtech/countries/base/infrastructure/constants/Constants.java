@@ -1,4 +1,4 @@
-package gattaca.insurtech.base.infrastructure.constants;
+package gattaca.insurtech.countries.base.infrastructure.constants;
 
 public class Constants {
     public static final int CODE_200 = 200;

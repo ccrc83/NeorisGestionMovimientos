@@ -1,7 +1,7 @@
-package gattaca.insurtech.base.domain.usecases;
+package gattaca.insurtech.countries.base.domain.usecases;
 
-import gattaca.insurtech.base.domain.entities.Countries;
-import gattaca.insurtech.base.infrastructure.adapters.CountriesRepository;
+import gattaca.insurtech.countries.base.domain.entities.Countries;
+import gattaca.insurtech.countries.base.infrastructure.adapters.CountriesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

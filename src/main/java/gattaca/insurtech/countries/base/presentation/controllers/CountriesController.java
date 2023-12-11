@@ -1,10 +1,10 @@
-package gattaca.insurtech.base.presentation.controllers;
+package gattaca.insurtech.countries.base.presentation.controllers;
 
-import gattaca.insurtech.base.domain.usecases.FindAllCountriesUseCase;
-import gattaca.insurtech.base.domain.entities.Countries;
-import gattaca.insurtech.base.infrastructure.constants.Constants;
-import gattaca.insurtech.base.presentation.dtos.ResponseErrorMessage;
-import gattaca.insurtech.base.presentation.dtos.ResponseMessage;
+import gattaca.insurtech.countries.base.domain.usecases.FindAllCountriesUseCase;
+import gattaca.insurtech.countries.base.domain.entities.Countries;
+import gattaca.insurtech.countries.base.infrastructure.constants.Constants;
+import gattaca.insurtech.countries.base.presentation.dtos.ResponseErrorMessage;
+import gattaca.insurtech.countries.base.presentation.dtos.ResponseMessage;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;

@@ -1,4 +1,4 @@
-package gattaca.insurtech.base.presentation.swagger;
+package gattaca.insurtech.countries.base.presentation.swagger;
 
 import io.swagger.annotations.Info;
 import io.swagger.annotations.SwaggerDefinition;

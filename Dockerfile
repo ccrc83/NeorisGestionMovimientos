@@ -1,8 +1,7 @@
 # Dockerfile
 FROM openjdk:17-alpine
 
-# Copy the JAR file to the container
-COPY out/artifacts/countries_jar/*.jar .
-
-# Set the entrypoint command
-ENTRYPOINT ["java", "-jar", "countries.jar"]
+MAINTAINER "gattaca"
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} base-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/base-0.0.1-SNAPSHOT.jar"]
